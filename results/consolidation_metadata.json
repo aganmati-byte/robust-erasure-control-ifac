@@ -1,0 +1,12 @@
+{
+  "profile": "standard",
+  "seed": 20261064,
+  "n_trajectories": 3500,
+  "horizon": 500,
+  "noise_std": 0.1,
+  "initial_std": 1.0,
+  "q": 0.96,
+  "source_v3": "untouched",
+  "stationary_gain_convention": "h0=L; h_j=B*c^(j-1) j>=1",
+  "author_note": "SLSQP local finite-grid cost optimization, exact Bernstein continuum stability, exact cost formulas; not global cost optimality"
+}

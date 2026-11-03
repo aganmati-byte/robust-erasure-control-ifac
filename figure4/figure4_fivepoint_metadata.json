@@ -1,0 +1,32 @@
+{
+  "seed": 20261020,
+  "N": 1200,
+  "T": 300,
+  "B": 400,
+  "process_noise_variance": 0.01,
+  "initial_state": "N(0,1)",
+  "control_weight": 0.05,
+  "q": [
+    0.92,
+    0.96,
+    0.98
+  ],
+  "plant_grid": "a1+(a2-a1)*j/4 for j=0,1,2,3,4",
+  "stationary_q098_endpoints": "omitted from display; fixed-plant MS unstable (rho>1)",
+  "stationary_endpoints_rho_q098": [
+    2.689024390243903,
+    2.689024390243903
+  ],
+  "standard_error": "sample_SD/sqrt(1200) across independent trajectory costs J_T",
+  "figure_band": "pointwise percentile 95% bootstrap CI of mean cost, 400 trajectory resamples per controller and plant",
+  "paired_within_plant": true,
+  "seed_offset_by_index": {
+    "0": 0,
+    "1": 3,
+    "2": 1,
+    "3": 4,
+    "4": 2
+  },
+  "preexisting_three_pole_values_regression": "PASS 43 comparisons",
+  "warning": "Mean/SE and bootstrap intervals are finite-horizon sampling uncertainty, NOT mean-square-stability certificates; non-stable controllers can have severe rare-event heavy tails; intervals may be unreliable there."
+}

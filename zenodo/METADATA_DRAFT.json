@@ -1,0 +1,28 @@
+{
+  "status": "DRAFT ONLY - NOT DEPOSITED - DO NOT PUBLISH",
+  "resource_type": "software",
+  "title": "Robust mean-square stabilization under Bernoulli erasures: reproducibility code and numerical data",
+  "creators": [
+    {
+      "name": "Ganmati, Abdelilah",
+      "affiliation": "LabSIV, Faculty of Sciences, Ibn Zohr University, Morocco"
+    },
+    {
+      "name": "Vasilyev, Alexander",
+      "affiliation": "Beijing Normal-Hong Kong Baptist University, China (confirm exact institute wording)"
+    }
+  ],
+  "description": "Research code, exact-rational stability certificates, CPU simulations, and matched finite-horizon Monte Carlo data supporting a manuscript under coauthor review. Controller-class scope and unverified originality must be disclosed.",
+  "keywords": [
+    "robust control",
+    "mean-square stability",
+    "Bernoulli erasure channel",
+    "periodic control",
+    "reproducible computational research"
+  ],
+  "access": "unpublished draft now; publication/visibility only after both authors approve",
+  "license": "PENDING COAUTHOR DECISION",
+  "related_identifiers": "manuscript DOI PENDING",
+  "version": "0.1.0-review-candidate",
+  "doi": "NOT RESERVED"
+}

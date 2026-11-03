@@ -1,0 +1,16 @@
+{
+  "profile": "standard",
+  "seed": 20261020,
+  "n_trajectories": 1200,
+  "horizon": 300,
+  "optimization_grid": 1201,
+  "certificate_grid": 40001,
+  "noise_std": 0.1,
+  "state_init_std": 1.0,
+  "quadratic_weight_u": 0.05,
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "duration_sec": 2.72,
+  "notes": "No claim that float derivative bound is formally verified interval arithmetic. No SOTA status."
+}

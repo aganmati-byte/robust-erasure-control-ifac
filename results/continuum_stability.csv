@@ -1,0 +1,10 @@
+a1,a2,q,controller,continuum_status,max_grid_loggrowth,continuum_stable
+1.2,3.0,0.92,cheb,analytic_exact_cheb,-0.17638226537506196,True
+1.2,3.0,0.92,optimized,derivative_bound_float,-0.8907563867023343,True
+1.2,3.0,0.92,stationary,analytically_not_robust,,False
+1.2,3.0,0.96,cheb,analytic_exact_cheb,-0.9605012241407322,True
+1.2,3.0,0.96,optimized,derivative_bound_float,-1.1836740744278114,True
+1.2,3.0,0.96,stationary,analytic_stationary_theorem,,True
+1.5,4.5,0.98,cheb,no_continuum_stability_certificate,0.15467608140207484,False
+1.5,4.5,0.98,optimized,derivative_bound_float,-0.12465680302584659,True
+1.5,4.5,0.98,stationary,analytically_not_robust,,False

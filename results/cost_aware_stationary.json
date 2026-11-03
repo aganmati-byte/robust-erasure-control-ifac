@@ -1,0 +1,32 @@
+{
+  "design": "optimal_slsqp_grid",
+  "q": 0.96,
+  "lo": 1.2,
+  "hi": 3.0,
+  "c": 2.1,
+  "L": 2.104692202603161,
+  "B": 0.8143494389928447,
+  "optimization_grid_points": 31,
+  "objective_grid_bound": 0.28034528089369604,
+  "max_dense_grid_J": 0.28034528089355604,
+  "max_dense_grid_a": 3.0,
+  "max_grid_rho": 0.9540429607683625,
+  "benchmark_J_hstar": 0.33940195652173855,
+  "certificate": {
+    "certified": true,
+    "segments": 64,
+    "bad_segments": [],
+    "min_Bernstein_coefficient_decimal": "0.0266811936469225",
+    "stability_criterion": "H(a)>0 on each cell, D_aa D_ac D_cc>0, H=(1-rho)*D_aa D_ac D_cc",
+    "exact_rational": true,
+    "gain_hex": {
+      "L": "0x1.0d668dd929d40p+1",
+      "B": "0x1.a0f268dffafd8p-1",
+      "c": "0x1.0cccccccccccdp+1"
+    },
+    "a1": "6/5",
+    "a2": "3",
+    "q": "24/25"
+  },
+  "statement": "SLSQP grid local result, not globally cost-optimal; continuum strict stability separately certified."
+}

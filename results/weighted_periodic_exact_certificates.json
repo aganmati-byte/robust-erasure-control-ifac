@@ -1,0 +1,77 @@
+[
+  {
+    "a1": "6/5",
+    "a2": "3",
+    "q": "23/25",
+    "period": 6,
+    "grid_points": 1201,
+    "exact_rational": true,
+    "nodes_float_hex": [
+      "0x1.3ea9579cf1286p+0",
+      "0x1.93afe03e97b10p+0",
+      "0x1.0c627912a287dp+1",
+      "0x1.48ead6f05e463p+1",
+      "0x1.6e2e92729abffp+1",
+      "0x1.7e27befeccc10p+1"
+    ],
+    "grid_peak_decimal": "0.0690946909301",
+    "lipschitz_decimal": "72.695892394",
+    "continuum_bound_decimal": "0.123616610226",
+    "continuum_margin_decimal": "0.876383389774",
+    "grid_peak_index": 419,
+    "bound_less_than_one_exact": true,
+    "bound_fraction": "232080514768587687076903863338087270594065378406978140542307514182890755758778067009190492297321380982568401937568304934361/1877421766744693123447398409688513794668818580225040650700528503629673987224658377963890527614237819695970167816192000000000",
+    "exact_comparison": "bound_fraction < 1 is checked using integer comparison with arbitrary precision",
+    "scope": "whole interval, for exact dyadic rationals representing stored binary64 gains; assumes ideal real-arithmetic controller"
+  },
+  {
+    "a1": "6/5",
+    "a2": "3",
+    "q": "24/25",
+    "period": 6,
+    "grid_points": 1201,
+    "exact_rational": true,
+    "nodes_float_hex": [
+      "0x1.3c410d99dcf2cp+0",
+      "0x1.804d51511a183p+0",
+      "0x1.f1c51fd64b9f5p+0",
+      "0x1.35638be0f6ff2p+1",
+      "0x1.645578d5de7fep+1",
+      "0x1.7ce7f6d0c220ep+1"
+    ],
+    "grid_peak_decimal": "0.0286944669804",
+    "lipschitz_decimal": "3.32156071818",
+    "continuum_bound_decimal": "0.031185637519",
+    "continuum_margin_decimal": "0.968814362481",
+    "grid_peak_index": 1200,
+    "bound_less_than_one_exact": true,
+    "bound_fraction": "4065680996556003462259887478397858520857012831280828341144381174497618948973647680143465590703538789/130370302485407109521180524058200202307293977194619920040712988758680403184853549195737432064000000000",
+    "exact_comparison": "bound_fraction < 1 is checked using integer comparison with arbitrary precision",
+    "scope": "whole interval, for exact dyadic rationals representing stored binary64 gains; assumes ideal real-arithmetic controller"
+  },
+  {
+    "a1": "3/2",
+    "a2": "9/2",
+    "q": "49/50",
+    "period": 6,
+    "grid_points": 1201,
+    "exact_rational": true,
+    "nodes_float_hex": [
+      "0x1.8f6d11ea2b62ep+0",
+      "0x1.01c0b4e896a3cp+1",
+      "0x1.624ddbeacfe57p+1",
+      "0x1.c7b6a47d845ccp+1",
+      "0x1.0a1a7a1f49bbap+2",
+      "0x1.1d9433cf6dbe3p+2"
+    ],
+    "grid_peak_decimal": "0.687974126659",
+    "lipschitz_decimal": "61.4549460992",
+    "continuum_bound_decimal": "0.764792809283",
+    "continuum_margin_decimal": "0.235207190717",
+    "grid_peak_index": 1139,
+    "bound_less_than_one_exact": true,
+    "bound_fraction": "5009537537039388944177490000932155875721974889105968392535724264491975619831960131243784326877288685361416652262067/6550189118195469174960412133840249375439859358675318012486732257951364914777468160972599005561025289694125930577920",
+    "exact_comparison": "bound_fraction < 1 is checked using integer comparison with arbitrary precision",
+    "scope": "whole interval, for exact dyadic rationals representing stored binary64 gains; assumes ideal real-arithmetic controller"
+  }
+]
